@@ -5,8 +5,8 @@ Estudo de estrutura e algoritmos. O foco aqui é entender o funcionamento intern
 ## 📌 Sumário e Roadmap
 
 ### 1. Conceitos Fundamentais
-- [ ] **Recursividade:** Casos base, pilha de chamadas e Tail Recursion.
-- [ ] **Lineares:** Listas encadeadas (simples e duplas), Pilhas (Stacks) e Filas (Queues).
+- [x] **Recursividade:** Casos base, pilha de chamadas e Tail Recursion.
+- [x] **Lineares:** Listas encadeadas (simples e duplas), Pilhas (Stacks) e Filas (Queues).
 
 ### 2. Estruturas Baseadas em Chaves e Conjuntos
 - [ ] **Hashing:** Hash Tables, tratamento de colisões (Chaining e Open Addressing).
