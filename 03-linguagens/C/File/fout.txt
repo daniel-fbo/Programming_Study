@@ -1,0 +1,3 @@
+Olá mundo!nome,idade
+Daniel, 19
+Joao, 20
