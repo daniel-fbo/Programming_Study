@@ -11,7 +11,7 @@ O código é público, o usuário pode abrir o console e mudá-lo.
 ### HTML
 É declarativo!
 Ele declara contêineres!
-Por isso, não é bom usar div sempre (container genérico), mas usar tags semênticas, como <h1>, <main>, <button>, etc
+Por isso, não é bom usar div sempre (container genérico), mas usar tags semênticas, como `<h1>, <main>, <button>`, etc
 
 ### CSS
 Também declarativo, você decalra regras e o browser resolve conflitos.
@@ -35,25 +35,26 @@ O browser lê o arquivo de cima pra baixo de uma vez só!
 > CSS <style> é bom na head, se não o arquivo aparece por um instante sem estilização
 
 ***Esqueleto Mental*** 
-' <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <title>...</title>
-  <style> -> carrega antes de pintar </style>
-</head>
-
-<body>
-  <script> -> o DOM do corpo acima já existe, o JS consegue manipular tudo </script>
-</body>
-</html> '
+ 
+```
+> <!DOCTYPE html>
+> <html lang="pt-br">
+> <head>
+> <meta charset="UTF-8">
+> <title>...</title>
+> <style> -> carrega antes de pintar </style>
+> </head>
+> <body>
+> <script> -> o DOM do corpo acima já existe, o JS consegue manipular tudo </script>
+> </body>
+> </html>
+```
 
 ### Pontes entre Camadas
-**Seletores** são a linguagem comum, ' .input1 ' é um elemento com classe input1 tanto em css quanto em um ' document.querySelector(".input1") '.
+**Seletores** são a linguagem comum, ` .input1 ` é um elemento com classe input1 tanto em css quanto em um  `document.querySelector(".input1") `.
 **DOM API** é como o JS lê e escreve o HTML
 Classes do CSS são a forma do JS mudar o visual. O JS muda o estado e o CSS a aparência. Exemplo:
-'foca.classList.add("pensando");   -> o CSS define o que "pensando" parece'
+`foca.classList.add("pensando");   -> o CSS define o que "pensando" parece`
 
 ### + JS
 O motor do navegador executa a linguagem, e o navegador pendura as APIs nele. Funções como window, document, fetch, localStorage e alert() são do navegador.
